@@ -14,8 +14,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -62,6 +62,12 @@
       <artifactId>commons-io</artifactId>
       <version>2.11.0</version>
     </dependency>
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.32</version>
+    <scope>provided</scope>
+</dependency>
 
     <!-- Log4j -->
     <dependency>
@@ -77,29 +83,5 @@
       <version>5.0.9</version>
     </dependency>
   </dependencies>
-<build>
-  <plugins>
-    <plugin>
-      <groupId>net.masterthought</groupId>
-      <artifactId>maven-cucumber-reporting</artifactId>
-      <version>5.7.8</version>
-      <executions>
-        <execution>
-          <id>cucumber-report</id>
-          <phase>verify</phase>
-          <goals>
-            <goal>generate</goal>
-          </goals>
-          <configuration>
-            <projectName>FrameworkwithBDD1</projectName>
-            <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
-            <jsonFiles>
-          <param>${project.build.directory}/cucumber.json</param>
-        </jsonFiles>
-          </configuration>
-        </execution>
-      </executions>
-    </plugin>
-  </plugins>
-</build>
+
 </project>
