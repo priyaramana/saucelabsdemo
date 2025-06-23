@@ -1,0 +1,105 @@
+2025-06-21 22:14:32 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:41:23 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:41:37 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:41:52 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:45:25 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:45:40 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:45:55 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:47:43 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:47:59 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:48:14 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:53:08 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:53:34 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:53:59 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:55:00 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:56:06 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 22:57:12 INFO  com.stepdefs.LoginStepDef - loginpage opened
+2025-06-21 23:13:39 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:13:50 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:14:00 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:14:10 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:14:19 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:19:34 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:19:39 INFO  com.stepdefs.LoginStepDef - login button should be clicked
+2025-06-21 23:19:39 INFO  com.stepdefs.LoginStepDef - home page should display
+2025-06-21 23:19:49 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:19:54 INFO  com.stepdefs.LoginStepDef - login button should be clicked
+2025-06-21 23:19:54 INFO  com.stepdefs.LoginStepDef - home page should display
+2025-06-21 23:20:04 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:20:09 INFO  com.stepdefs.LoginStepDef - login button should be clicked
+2025-06-21 23:20:09 INFO  com.stepdefs.LoginStepDef - home page should display
+2025-06-21 23:20:20 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:20:23 INFO  com.stepdefs.LoginStepDef - login button shoudl be clicked
+2025-06-21 23:20:23 INFO  com.stepdefs.LoginStepDef - error message should be displayed
+2025-06-21 23:20:33 INFO  com.stepdefs.LoginStepDef - login page should open
+2025-06-21 23:20:37 INFO  com.stepdefs.LoginStepDef - login button shoudl be clicked
+2025-06-21 23:20:37 INFO  com.stepdefs.LoginStepDef - user error message should be displayed
+2025-06-21 23:34:22 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:35:54 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:35:54 INFO  com.stepdefs.HomePageStepDefs - page title should be displayed
+2025-06-21 23:41:02 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:43:13 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:46:00 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:47:34 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:47:34 INFO  com.stepdefs.HomePageStepDefs - page title should be displayed
+2025-06-21 23:51:10 INFO  com.stepdefs.HomePageStepDefs - user should redirect to home page
+2025-06-21 23:59:37 INFO  ProductpageStepdef - user should be on product page
+2025-06-21 23:59:47 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:01:03 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:01:12 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:14:40 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:14:40 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:14:57 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:14:57 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:14:58 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (d3faf1f193525c2dcfc2ad2a8f460dad)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:14:58 INFO  ProductpageStepdef - price should get displayed
+2025-06-22 00:25:27 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:25:27 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:25:29 INFO  com.pages.ProductDetailsPage - cartcount :1
+2025-06-22 00:25:30 INFO  ProductpageStepdef - product should get added
+2025-06-22 00:25:45 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:25:45 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:25:45 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (7ccbfde4046b4d1f96618b56052b9195)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:25:45 INFO  ProductpageStepdef - price should get displayed
+2025-06-22 00:30:36 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:30:36 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:30:38 INFO  com.pages.ProductDetailsPage - cartcount :1
+2025-06-22 00:30:38 INFO  ProductpageStepdef - product should get added
+2025-06-22 00:30:53 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:30:53 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:30:53 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (0b7700c71ba85284e2a4a548b76057d1)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:30:53 INFO  ProductpageStepdef - price should get displayed
+2025-06-22 00:34:47 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:34:47 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:34:49 INFO  com.pages.ProductDetailsPage - cartcount :1
+2025-06-22 00:34:50 INFO  ProductpageStepdef - product should get added
+2025-06-22 00:35:05 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:35:05 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:35:05 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (bc76ea594a39fefb936ee458f07b6cf8)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:35:05 INFO  ProductpageStepdef - price should get displayed
+2025-06-22 00:42:50 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:42:50 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:42:52 INFO  com.pages.ProductDetailsPage - cartcount :1
+2025-06-22 00:42:53 INFO  ProductpageStepdef - product should get added
+2025-06-22 00:43:07 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:43:07 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:43:08 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (f833fef8b197d33d0f2cdea72e66694b)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:43:08 INFO  ProductpageStepdef - price should get displayed
+2025-06-22 00:45:05 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:45:05 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:45:07 INFO  com.pages.ProductDetailsPage - cartcount :1
+2025-06-22 00:45:08 INFO  ProductpageStepdef - product should get added
+2025-06-22 00:45:23 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:45:23 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:45:23 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (5418255cbf43bde327cf84f692584c63)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:45:23 INFO  ProductpageStepdef - price should get displayed
+2025-06-22 00:50:13 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:50:13 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:50:30 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:50:30 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:50:32 INFO  com.pages.ProductDetailsPage - cartcount :1
+2025-06-22 00:50:32 INFO  ProductpageStepdef - product should get added
+2025-06-22 00:50:47 INFO  ProductpageStepdef - user should redirect to home page
+2025-06-22 00:50:47 INFO  ProductpageStepdef - user should be on product page
+2025-06-22 00:50:48 INFO  com.pages.ProductDetailsPage - product price:[[ChromeDriver: chrome on mac (2c939b8a87b426a753ea25071b7c9f57)] -> xpath: //div[@class='inventory_item_name ' and text()='Sauce Labs Fleece Jacket']//parent::div//parent::a//parent::div//following-sibling::div[@class='pricebar']/div]
+2025-06-22 00:50:48 INFO  ProductpageStepdef - price should get displayed

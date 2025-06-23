@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="34.96" tests="12" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="webdriver.chrome.driver" value="/Users/lt535j/.cache/selenium/chromedriver/mac-arm64/137.0.7151.119/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/test-classes:/Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/classes:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-java/4.32.0/selenium-java-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-api/4.32.0/selenium-api-4.32.0.jar:/Users/lt535j/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.32.0/selenium-chrome-driver-4.32.0.jar:/Users/lt535j/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.32.0/selenium-chromium-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-json/4.32.0/selenium-json-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.32.0/selenium-manager-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.32.0/selenium-devtools-v134-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.32.0/selenium-devtools-v135-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.32.0/selenium-devtools-v136-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.32.0/selenium-edge-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.32.0/selenium-firefox-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-http/4.32.0/selenium-http-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.32.0/selenium-ie-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.32.0/selenium-remote-driver-4.32.0.jar:/Users/lt535j/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/lt535j/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/lt535j/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/lt535j/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-api/1.49.0/opentelemetry-api-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-context/1.49.0/opentelemetry-context-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.49.0/opentelemetry-exporter-logging-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.49.0/opentelemetry-sdk-common-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.49.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.49.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.49.0/opentelemetry-sdk-trace-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.49.0/opentelemetry-sdk-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.49.0/opentelemetry-sdk-metrics-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.49.0/opentelemetry-sdk-logs-1.49.0.jar:/Users/lt535j/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-os/4.32.0/selenium-os-4.32.0.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.32.0/selenium-safari-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-support/4.32.0/selenium-support-4.32.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-java/7.11.0/cucumber-java-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/lt535j/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/lt535j/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/lt535j/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/lt535j/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/lt535j/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/lt535j/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-testng/7.11.0/cucumber-testng-7.11.0.jar:/Users/lt535j/.m2/repository/net/masterthought/cucumber-reporting/5.7.6/cucumber-reporting-5.7.6.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/lt535j/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/lt535j/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/lt535j/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/Users/lt535j/.m2/repository/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar:/Users/lt535j/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/lt535j/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/lt535j/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/lt535j/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/lt535j/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/lt535j/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/lt535j/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/lt535j/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/lt535j/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.0/webdrivermanager-6.1.0.jar:/Users/lt535j/.m2/repository/com/google/code/gson/gson/2.13.0/gson-2.13.0.jar:/Users/lt535j/.m2/repository/com/google/errorprone/error_prone_annotations/2.37.0/error_prone_annotations-2.37.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java/3.5.0/docker-java-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-core/3.5.0/docker-java-core-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-api/3.5.0/docker-java-api-3.5.0.jar:/Users/lt535j/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.0/docker-java-transport-httpclient5-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-transport/3.5.0/docker-java-transport-3.5.0.jar:/Users/lt535j/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/lt535j/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/lt535j/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/lt535j/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/Users/lt535j/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/lt535j/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/lt535j/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/lt535j/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/lt535j/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/lt535j/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/lt535j/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/surefire/surefirebooter-20250623104537967_3.jar /Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/surefire 2025-06-23T10-45-37_927-jvmRun1 surefire-20250623104537967_1tmp surefire_0-20250623104537967_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/test-classes:/Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/classes:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-java/4.32.0/selenium-java-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-api/4.32.0/selenium-api-4.32.0.jar:/Users/lt535j/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.32.0/selenium-chrome-driver-4.32.0.jar:/Users/lt535j/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.32.0/selenium-chromium-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-json/4.32.0/selenium-json-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.32.0/selenium-manager-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v134/4.32.0/selenium-devtools-v134-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v135/4.32.0/selenium-devtools-v135-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v136/4.32.0/selenium-devtools-v136-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.32.0/selenium-edge-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.32.0/selenium-firefox-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-http/4.32.0/selenium-http-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.32.0/selenium-ie-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.32.0/selenium-remote-driver-4.32.0.jar:/Users/lt535j/.m2/repository/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar:/Users/lt535j/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/lt535j/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/lt535j/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-api/1.49.0/opentelemetry-api-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-context/1.49.0/opentelemetry-context-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.49.0/opentelemetry-exporter-logging-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.49.0/opentelemetry-sdk-common-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.49.0/opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.49.0/opentelemetry-sdk-extension-autoconfigure-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.49.0/opentelemetry-sdk-trace-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.49.0/opentelemetry-sdk-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.49.0/opentelemetry-sdk-metrics-1.49.0.jar:/Users/lt535j/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.49.0/opentelemetry-sdk-logs-1.49.0.jar:/Users/lt535j/.m2/repository/net/bytebuddy/byte-buddy/1.17.5/byte-buddy-1.17.5.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-os/4.32.0/selenium-os-4.32.0.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.32.0/selenium-safari-driver-4.32.0.jar:/Users/lt535j/.m2/repository/org/seleniumhq/selenium/selenium-support/4.32.0/selenium-support-4.32.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-java/7.11.0/cucumber-java-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-core/7.11.0/cucumber-core-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-gherkin/7.11.0/cucumber-gherkin-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.0/cucumber-gherkin-messages-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/lt535j/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/lt535j/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-expressions/16.1.1/cucumber-expressions-16.1.1.jar:/Users/lt535j/.m2/repository/io/cucumber/datatable/7.11.0/datatable-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-plugin/7.11.0/cucumber-plugin-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/docstring/7.11.0/docstring-7.11.0.jar:/Users/lt535j/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/lt535j/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/lt535j/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/lt535j/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/lt535j/.m2/repository/io/cucumber/cucumber-testng/7.11.0/cucumber-testng-7.11.0.jar:/Users/lt535j/.m2/repository/net/masterthought/cucumber-reporting/5.7.6/cucumber-reporting-5.7.6.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/lt535j/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/lt535j/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/lt535j/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/lt535j/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar:/Users/lt535j/.m2/repository/org/jsoup/jsoup/1.16.1/jsoup-1.16.1.jar:/Users/lt535j/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/lt535j/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/lt535j/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/lt535j/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/lt535j/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/lt535j/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/lt535j/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/lt535j/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/lt535j/.m2/repository/io/github/bonigarcia/webdrivermanager/6.1.0/webdrivermanager-6.1.0.jar:/Users/lt535j/.m2/repository/com/google/code/gson/gson/2.13.0/gson-2.13.0.jar:/Users/lt535j/.m2/repository/com/google/errorprone/error_prone_annotations/2.37.0/error_prone_annotations-2.37.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java/3.5.0/docker-java-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-core/3.5.0/docker-java-core-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-api/3.5.0/docker-java-api-3.5.0.jar:/Users/lt535j/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.5.0/docker-java-transport-httpclient5-3.5.0.jar:/Users/lt535j/.m2/repository/com/github/docker-java/docker-java-transport/3.5.0/docker-java-transport-3.5.0.jar:/Users/lt535j/.m2/repository/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/Users/lt535j/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/lt535j/.m2/repository/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar:/Users/lt535j/.m2/repository/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.4.3/httpclient5-5.4.3.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar:/Users/lt535j/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar:/Users/lt535j/.m2/repository/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar:/Users/lt535j/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/lt535j/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/lt535j/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/lt535j/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/lt535j/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/lt535j/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/lt535j/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/lt535j"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/lt535j/eclipse-workspace/FrameworkwithBDD1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/lt535j/eclipse-workspace/FrameworkwithBDD1/target/surefire/surefirebooter-20250623104537967_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="user.name" value="lt535j"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/lt535j/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/w2/s02xvqn17mn36j_m_gddpv800000gp/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/lt535j/eclipse-workspace/FrameworkwithBDD1"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lt535j/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;verifyCarticon&quot;, &quot;cart page&quot;](1)" classname="runners.TestRunner" time="4.103">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.pages.ProductDetailsPage.addSecondProduct(ProductDetailsPage.java:61)
+	at com.stepdefs.CartpageStepdef.user_is_initially_on_product_page(CartpageStepdef.java:23)
+	at ✽.user is initially on product page(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/cart.feature:4)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: verifyCarticon                  # src/test/resources/Features/cart.feature:3
+  Given user is initially on product page # com.stepdefs.CartpageStepdef.user_is_initially_on_product_page()
+      java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+	at com.pages.ProductDetailsPage.addSecondProduct(ProductDetailsPage.java:61)
+	at com.stepdefs.CartpageStepdef.user_is_initially_on_product_page(CartpageStepdef.java:23)
+	at ✽.user is initially on product page(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/cart.feature:4)
+
+  When user looks for cart icon           # com.stepdefs.CartpageStepdef.user_looks_for_cart_icon()
+  Then cart icon should be displayed      # com.stepdefs.CartpageStepdef.cart_icon_should_be_displayed()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 23, 2025 10:45:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;gotoCartpage&quot;, &quot;cart page&quot;](2)" classname="runners.TestRunner" time="2.739">
+    <failure message="Cannot invoke &quot;com.pages.CartPage.gotoCartpage()&quot; because &quot;this.cartpage&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.pages.CartPage.gotoCartpage()" because "this.cartpage" is null
+	at com.stepdefs.CartpageStepdef.user_clicks_on_cart_icon(CartpageStepdef.java:41)
+	at ✽.user clicks on cart icon(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/cart.feature:10)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: gotoCartpage                   # src/test/resources/Features/cart.feature:8
+  Given user is on product page          # com.stepdefs.ProductpageStepdef.user_is_on_product_page()
+  When user clicks on cart icon          # com.stepdefs.CartpageStepdef.user_clicks_on_cart_icon()
+      java.lang.NullPointerException: Cannot invoke "com.pages.CartPage.gotoCartpage()" because "this.cartpage" is null
+	at com.stepdefs.CartpageStepdef.user_clicks_on_cart_icon(CartpageStepdef.java:41)
+	at ✽.user clicks on cart icon(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/cart.feature:10)
+
+  Then user should redirect to cart page # com.stepdefs.CartpageStepdef.user_should_redirect_to_cart_page()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+log4j:WARN No appenders could be found for logger (ProductpageStepdef).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;placeOrder&quot;, &quot;cart page&quot;](3)" classname="runners.TestRunner" time="2.751">
+    <failure message="Cannot invoke &quot;com.pages.CartPage.placeOrder(String, String, String)&quot; because &quot;this.cartpage&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "com.pages.CartPage.placeOrder(String, String, String)" because "this.cartpage" is null
+	at com.stepdefs.CartpageStepdef.user_is_on_cart_page(CartpageStepdef.java:51)
+	at ✽.user is on cart page(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/cart.feature:14)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: placeOrder                              # src/test/resources/Features/cart.feature:13
+  Given user is on cart page                      # com.stepdefs.CartpageStepdef.user_is_on_cart_page()
+      java.lang.NullPointerException: Cannot invoke "com.pages.CartPage.placeOrder(String, String, String)" because "this.cartpage" is null
+	at com.stepdefs.CartpageStepdef.user_is_on_cart_page(CartpageStepdef.java:51)
+	at ✽.user is on cart page(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/cart.feature:14)
+
+  When user clicks on checkout                    # com.stepdefs.CartpageStepdef.user_clicks_on_checkout()
+  Then user should redirect to details page       # com.stepdefs.CartpageStepdef.user_should_redirect_to_details_page()
+  When user enters firstname,lastname,zip         # com.stepdefs.CartpageStepdef.user_enters_firstname_lastname_zip()
+  And clicks on continue CTA                      # com.stepdefs.CartpageStepdef.clicks_on_continue_cta()
+  Then user should navigate to finalCheckout page # com.stepdefs.CartpageStepdef.user_should_navigate_to_final_checkout_page()
+  When user clicks on finish CTA                  # com.stepdefs.CartpageStepdef.user_clicks_on_finish_cta()
+  Then success message should display             # com.stepdefs.CartpageStepdef.success_message_should_display()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;HomePage&quot;, &quot;Home page&quot;](4)" classname="runners.TestRunner" time="2.755">
+    <system-out><![CDATA[
+Scenario: HomePage                                                                  # src/test/resources/Features/homePage.feature:4
+  Given User is initially on login page                                             # com.stepdefs.HomePageStepDefs.user_is_initially_on_login_page()
+  When User enters valid username "standard_user" and valid password "secret_sauce" # com.stepdefs.HomePageStepDefs.user_enters_valid_username_standard_user_and_valid_password(java.lang.String,java.lang.String)
+  Then User should redirect to home page                                            # com.stepdefs.HomePageStepDefs.user_should_redirect_to_home_page()
+Swag Labs
+  When user verifies the page title                                                 # com.stepdefs.HomePageStepDefs.user_verifies_the_page_title()
+  Then page title should be displayed                                               # com.stepdefs.HomePageStepDefs.page_title_should_be_displayed()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with creds&quot;, &quot;Login feature&quot;](5)" classname="runners.TestRunner" time="2.756">
+    <system-out><![CDATA[
+Scenario Outline: Login with creds                                      # src/test/resources/Features/login.feature:11
+  Given User is on login page                                           # com.stepdefs.LoginStepDef.user_is_on_login_page()
+  When User enters username "standard_user" and password "secret_sauce" # com.stepdefs.LoginStepDef.user_enters_username_and_password(java.lang.String,java.lang.String)
+  And clicks on Login button                                            # com.stepdefs.LoginStepDef.clicks_on_login_button()
+  Then User should navigate to home page                                # com.stepdefs.LoginStepDef.user_should_navigate_to_home_page()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with creds&quot;, &quot;Login feature&quot;](6)" classname="runners.TestRunner" time="2.638">
+    <system-out><![CDATA[
+Scenario Outline: Login with creds                                   # src/test/resources/Features/login.feature:12
+  Given User is on login page                                        # com.stepdefs.LoginStepDef.user_is_on_login_page()
+  When User enters username "error_user" and password "secret_sauce" # com.stepdefs.LoginStepDef.user_enters_username_and_password(java.lang.String,java.lang.String)
+  And clicks on Login button                                         # com.stepdefs.LoginStepDef.clicks_on_login_button()
+  Then User should navigate to home page                             # com.stepdefs.LoginStepDef.user_should_navigate_to_home_page()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with creds&quot;, &quot;Login feature&quot;](7)" classname="runners.TestRunner" time="2.744">
+    <system-out><![CDATA[
+Scenario Outline: Login with creds                                     # src/test/resources/Features/login.feature:13
+  Given User is on login page                                          # com.stepdefs.LoginStepDef.user_is_on_login_page()
+  When User enters username "problem_user" and password "secret_sauce" # com.stepdefs.LoginStepDef.user_enters_username_and_password(java.lang.String,java.lang.String)
+  And clicks on Login button                                           # com.stepdefs.LoginStepDef.clicks_on_login_button()
+  Then User should navigate to home page                               # com.stepdefs.LoginStepDef.user_should_navigate_to_home_page()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;LoginWithoutPass&quot;, &quot;Login feature&quot;](8)" classname="runners.TestRunner" time="2.865">
+    <system-out><![CDATA[
+Scenario: LoginWithoutPass                 # src/test/resources/Features/login.feature:15
+  Given User is on login page              # com.stepdefs.LoginStepDef.user_is_on_login_page()
+  When user enters password "secret_sauce" # com.stepdefs.LoginStepDef.user_enters_password(java.lang.String)
+  And click on login button                # com.stepdefs.LoginStepDef.click_on_login_button()
+  Then error message should display        # com.stepdefs.LoginStepDef.error_message_should_display()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:45:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;LoginWithoutUser&quot;, &quot;Login feature&quot;](9)" classname="runners.TestRunner" time="2.971">
+    <system-out><![CDATA[
+Scenario: LoginWithoutUser                  # src/test/resources/Features/login.feature:21
+  Given User is on login page               # com.stepdefs.LoginStepDef.user_is_on_login_page()
+  When user enters username "standard_user" # com.stepdefs.LoginStepDef.user_enters_username(java.lang.String)
+  And click on login button                 # com.stepdefs.LoginStepDef.click_on_login_button()
+  Then user error message should display    # com.stepdefs.LoginStepDef.user_error_message_should_display()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:46:02 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Remove or Add Product&quot;, &quot;product page&quot;](10)" classname="runners.TestRunner" time="2.72">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()=&apos;Remove&apos;]&quot;}&#10;  (Session info: chrome=137.0.7151.120)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.32.0&apos;, revision: &apos;d17c8aa950&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.5&apos;, java.version: &apos;24.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6535aff9c6a766f607f276a9bd7fa8ed, findElement {value=//button[text()=&apos;Remove&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63358/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6535aff9c6a766f607f276a9bd7fa8ed" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Remove']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6535aff9c6a766f607f276a9bd7fa8ed, findElement {value=//button[text()='Remove'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63358/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6535aff9c6a766f607f276a9bd7fa8ed
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.isEnabled(Unknown Source)
+	at com.pages.ProductDetailsPage.RemoveOrAddProduct(ProductDetailsPage.java:52)
+	at com.stepdefs.ProductpageStepdef.user_clicks_on_remove_cta(ProductpageStepdef.java:43)
+	at ✽.user clicks on remove CTA(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/productPage.feature:8)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Remove or Add Product                                                         # src/test/resources/Features/productPage.feature:3
+  Given User is on login page for product test                                          # com.stepdefs.ProductpageStepdef.User_is_on_login_page_for_product_test()
+  When User enters product username "standard_user" and product password "secret_sauce" # com.stepdefs.ProductpageStepdef.User_enters_product_username_and_product_password(java.lang.String,java.lang.String)
+  Then user should land on homepage after login                                         # com.stepdefs.ProductpageStepdef.user_should_land_on_homepage_after_login()
+  And user is on product page                                                           # com.stepdefs.ProductpageStepdef.user_is_on_product_page()
+  When user clicks on remove CTA                                                        # com.stepdefs.ProductpageStepdef.user_clicks_on_remove_cta()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Remove']"}
+  (Session info: chrome=137.0.7151.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6535aff9c6a766f607f276a9bd7fa8ed, findElement {value=//button[text()='Remove'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: /var/folders/w2/s02xvqn17mn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63358}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63358/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6535aff9c6a766f607f276a9bd7fa8ed
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.isEnabled(Unknown Source)
+	at com.pages.ProductDetailsPage.RemoveOrAddProduct(ProductDetailsPage.java:52)
+	at com.stepdefs.ProductpageStepdef.user_clicks_on_remove_cta(ProductpageStepdef.java:43)
+	at ✽.user clicks on remove CTA(file:///Users/lt535j/eclipse-workspace/FrameworkwithBDD1/src/test/resources/Features/productPage.feature:8)
+
+  Then product should get removed from cart                                             # com.stepdefs.ProductpageStepdef.product_should_get_removed_from_cart()
+  When user clicks on add to cart CTA                                                   # com.stepdefs.ProductpageStepdef.user_clicks_on_add_to_cart_cta()
+  Then product should get added to cart                                                 # com.stepdefs.ProductpageStepdef.product_should_get_added_to_cart()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:46:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add second product to cart&quot;, &quot;product page&quot;](11)" classname="runners.TestRunner" time="2.888">
+    <system-out><![CDATA[
+Scenario: Add second product to cart                                                    # src/test/resources/Features/productPage.feature:13
+  Given User is on login page for product test                                          # com.stepdefs.ProductpageStepdef.User_is_on_login_page_for_product_test()
+  When User enters product username "standard_user" and product password "secret_sauce" # com.stepdefs.ProductpageStepdef.User_enters_product_username_and_product_password(java.lang.String,java.lang.String)
+  Then user should land on homepage after login                                         # com.stepdefs.ProductpageStepdef.user_should_land_on_homepage_after_login()
+  And user is on product page                                                           # com.stepdefs.ProductpageStepdef.user_is_on_product_page()
+  When user clicks on addtocart CTA on second product                                   # com.stepdefs.ProductpageStepdef.user_clicks_on_addtocart_cta_on_second_product()
+  Then product should get added to cart                                                 # com.stepdefs.ProductpageStepdef.product_should_get_added_to_cart()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:46:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Print price of product&quot;, &quot;product page&quot;](12)" classname="runners.TestRunner" time="2.642">
+    <system-out><![CDATA[
+Scenario: Print price of product                                                        # src/test/resources/Features/productPage.feature:21
+  Given User is on login page for product test                                          # com.stepdefs.ProductpageStepdef.User_is_on_login_page_for_product_test()
+  When User enters product username "standard_user" and product password "secret_sauce" # com.stepdefs.ProductpageStepdef.User_enters_product_username_and_product_password(java.lang.String,java.lang.String)
+  Then user should land on homepage after login                                         # com.stepdefs.ProductpageStepdef.user_should_land_on_homepage_after_login()
+  And user is on product page                                                           # com.stepdefs.ProductpageStepdef.user_is_on_product_page()
+  When user navigates to SauceLabsBoltTShirt_Price                                      # com.stepdefs.ProductpageStepdef.user_navigates_to_sauce_labs_bolt_t_shirt_price()
+  Then price should get displayed                                                       # com.stepdefs.ProductpageStepdef.price_should_get_displayed()
+]]></system-out>
+    <system-err><![CDATA[Jun 23, 2025 10:46:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 137, returning the closest version; found: 136; Please update to a Selenium version that supports CDP version 137
+]]></system-err>
+  </testcase>
+</testsuite>

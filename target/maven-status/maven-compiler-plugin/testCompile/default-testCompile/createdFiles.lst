@@ -1,0 +1,6 @@
+com/hooks/Hooks.class
+com/stepdefs/LoginStepDef.class
+com/stepdefs/ProductpageStepdef.class
+runners/TestRunner.class
+com/stepdefs/CartpageStepdef.class
+com/stepdefs/HomePageStepDefs.class

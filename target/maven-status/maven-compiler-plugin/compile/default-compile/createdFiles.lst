@@ -1,0 +1,8 @@
+com/pages/ProductDetailsPage.class
+com/utils/LoggerClass.class
+com/pages/CartPage.class
+com/pages/HomePage.class
+com/pages/LoginPage.class
+com/utils/Screenshots.class
+com/driverfactory/DriverFactory.class
+com/utils/Configreader.class
